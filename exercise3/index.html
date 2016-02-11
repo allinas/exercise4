@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+<head>
+<title>forms</title>
+<style type="text/css">
+* {
+	font-family: gill sans, gill sans MT, san-serif;
+	background-color: rgba(237,208,152,1.00);}
+h1 {
+	color: rgba(26,44,87,1.00);
+	text-transform: uppercase;}
+P {
+	color: rgba(26,44,87,1.00);
+	line-height: 1.5em;}
+h2 {
+	color: rgba(183,118,6,1.00);}
+h3 {
+	color: rgba(147,122,2,1.00);}
+ul {
+	color: rgba(26,44,87,1.00);}
+h4 {
+	color: rgba(147,122,2,1.00);}
+h5 {
+	color: rgba(92,95,3,1.00);}
+input {
+	padding: 5px;
+	border: 1px dotted black;}
+label {
+	color: rgba(32,32,87,1.00);}
+.submit-button {
+	background: rgba(44,40,94,1.00);
+	color: #fff;
+	
+}	
+</style>
+</head>
+<body>
+<center>
+<h1>Welcome to HubPages</h1>
+<h3><em>Discover and create original, in-depth, useful, media-rich pages on topics you are passionate about.</em></h3>
+<br />
+<hr />
+<hr />
+</center>
+</body>
+<center>
+<h2>Please sign up here!</h2>
+</center>
+<form action="website/hubpages.com.webloc">
+<span>
+<label for="first_name">First name</label>
+<input type="text" name="user_firstname" id="first-name" Value="" required="required" placeholder="Please type your name" />
+</span>
+<br />
+<br />
+<span>
+<label for="middle_name">Middle name</label>
+<input type="text" name="user_middlename" id="middlename" value="" />
+</span>
+<br />
+<br />
+<span>
+<label for="last_name">Last name</label>
+<input type="text" name="user_lastname" id="last-name" value="" required="required" />
+</span>
+<br />
+<br />
+<span>
+<label for="date_of_birth">Date of Birth</label>
+<input type="date" name="user_dob" id="dob" value="">
+</span>
+<br />
+<br />
+<span>
+<label for="address1">Street Address 1</label>
+<input type="text" name="adress1" value="" />
+</span>
+<br />
+<br />
+<span>
+<label for="address2">Street Address 2</label>
+<input type="text" name="<address2" value="" />
+</span>
+<br />
+<br />
+<span>
+<label for="city">City</label>
+<input type="text" name="city" value="" />
+</span>
+<br />
+<br />
+<span>
+<label for="state">State</label>
+<select name="state">
+<option value="">Select a State</option>
+<option value="AK">Alaska</option>
+<option value="AL">Alabama</option>
+<option value="AR">Arkansas</option>
+<option value="AZ">Arizona</option>
+<option value="CA">California</option>
+<option value="CO">Colorado</option>
+<option value="CT">Connecticut</option>
+<option value="DC">District of Columbia</option>
+<option value="DE">Delaware</option>
+<option value="FL">Florida</option>
+<option value="GA">Georgia</option>
+<option value="GU">Guam</option>
+<option value="HI">Hawaii</option>
+<option value="IA">Iowa</option>
+<option value="ID">Idaho</option>
+<option value="IL">Illinois</option>
+<option value="IN">Indiana</option>
+<option value="KS">Kansas</option>
+<option value="KY">Kentucky</option>
+<option value="LA">Louisiana</option>
+<option value="MA">Massachusetts</option>
+<option value="MD">Maryland</option>
+<option value="ME">Maine</option>
+<option value="MI">Michigan</option>
+<option value="MN">Minnesota</option>
+<option value="MO">Missouri</option>
+<option value="MS">Mississippi</option>
+<option value="MT">Montana</option>
+<option value="NC">North Carolina</option>
+<option value="ND">North Dakota</option>
+<option value="OR">Oregon</option>
+<option value="PA">Pennsylvania</option>
+<option value="RI">Rhode Island</option>
+<option value="SC">South Carolina</option>
+<option value="SD">South Dakota</option>
+<option value="TN">Tennessee</option>
+<option value="TX">Texas</option>
+<option value="UT">Utah</option>
+<option value="VA">Virginia</option>
+<option value="VT">Vermont</option>
+<option value="WA">Washington</option>
+<option value="WI">Wisconsin</option>
+<option value="WV">West Virginia</option>
+<option value="WY">Wyoming</option>
+</select>
+</span>
+<br />
+<br />
+<span>
+<label for="zipcode">Zip code</label>
+<input type="text" name="zipcode" Value="" />
+</span>
+<br />
+<br />
+<fieldset>
+<legend>Gender</legend>
+<label for="female">Female<input type="radio" name="gender" value="female" id="female" /></label>
+<label for="male">Male<input type="radio" name="gender" value="male" id="male" requred="required" /></label>
+</fieldset>
+<br />
+<fieldset>
+<br />
+<legend>Contact Information</legend>
+<label for="email">Email adress<input type="text" name="user_email" required="required" /></label>
+<br />
+<br />
+<label for="home_phone">Home phone<input type="text" name="home_phone" /></label>
+<br />
+<br />
+<label for="Cell_phone">Cell phone<input type="text" name="cellphone" /></label>
+</fieldset>
+<hr />
+<h3>Please answer the questions below:</h3>
+<p>Please select a source(s):
+<br />
+<input type="checkbox" name="source" value="website" />Website
+<input type="checkbox" name="source" value="book"  />Book
+<input type="checkbox" name="source" value="magazine_article" />Magazine Article
+<input type="checkbox" name="source" value="newspaper" />Newspaper
+<input type="checkbox" name="source" value="database" />Database
+</p>
+<p>Please select a topic(s):
+<br />
+<input type="checkbox" name="genres" value="romance" />Romance
+<br />
+<input type="checkbox" name="genres" value="comedy" />Comedy
+<br />
+<input type="checkbox" name="genres" value="actionandadventure" />Action and Adventure
+<br />
+<input type="checkbox" name="genres" value="mystery" />Mystery
+<br />
+<input type="checkbox" name="gneres" value="sciencefiction" />Science Fiction
+<br />
+<input type="checkbox" name="genres" value="horror" />Horror
+</p>
+<hr />
+<span>
+<h3>Please create your own username and password:</h3>
+<label for="username">Username:</label>
+<input type="text" name="username" required="required" />
+<br />
+<br/>
+<label for="password">Password:</label>
+<input type="password" name="password" required="required" />
+<br />
+<br />
+<label for="reenter_password">Re-enter Password:</label>
+<input type="password" name="password" required="required" />
+<button type="submit" class="submit-button">Submit</button>
+</span>
+</form>
+<br />
+<span>
+<h3>Please leave us your comments here:</h3>
+<label for="comment">Comments:</label>
+<br />
+<textarea name="comments" id="comments" placeholder="please leave your comment here"></textarea>
+</span>
+<br />
+<button type="submit" class="submit-button">Save</button>
+<button type="button" class="submit-button">Previous Page</button>
+</html>
+
+  
+
+
+
+
+
+
+
+
+
